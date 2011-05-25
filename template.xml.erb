@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <Request>
   <RequestIdentifier><%= params["RequestIdentifier"] %></RequestIdentifier>
-  <UIPrepaidCardNumber><%= params["UIPrepaidCardNumber"].split('/')%></UIPrepaidCardNumber>
+  <UIPrepaidCardNumber><%= params["UIPrepaidCardNumber"] %></UIPrepaidCardNumber>
   <UIDateOfBirth><%= params["UIDateOfBirth"] %></UIDateOfBirth>
   <PrepaidCardNumber><%= params["PrepaidCardNumber"] %></PrepaidCardNumber>
   <CustomerID><%= params["CustomerID"] %></CustomerID>
   <PrepaidCardStatus><%= params["PrepaidCardStatus"] %></PrepaidCardStatus>
   <DirectDepositEnrolled><%= params["DirectDepositEnrolled"] %></DirectDepositEnrolled>
-  <PrepaidProgramPayFrequency><%= params["PrepaidProgramPayFrequencyCode1"] %></PrepaidProgramPayFrequency>
+  <PrepaidProgramPayFrequencyCode1><%= params["PrepaidProgramPayFrequencyCode1"] %></PrepaidProgramPayFrequencyCode1>
+  <PrepaidProgramPayFrequencyCode2><%= params["PrepaidProgramPayFrequencyCode2"] %></PrepaidProgramPayFrequencyCode2>
   <LastDirectDepositDate><%= params["LastDirectDepositDate"] %></LastDirectDepositDate>
   <PrevDirectDepositDate><%= params["PrevDirectDepositDate"] %></PrevDirectDepositDate>
   <LastDirectDepositAmt><%= params["LastDirectDepositAmt"] %></LastDirectDepositAmt>

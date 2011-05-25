@@ -35,6 +35,13 @@ class CsvImporter
       end
       @params["UIDateOfBirth"] = split_birthday[2] + split_birthday[0] + split_birthday[1]
     end
+    @params.each_pair do |k,v|
+      if v == "TRUE"
+        @params[k] = "Y"
+      elsif v == "FALSE"
+        @params[k] = "N"
+      end
+    end
     erb = ERB.new(template)
     erb.result(binding)
   end

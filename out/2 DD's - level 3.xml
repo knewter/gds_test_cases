@@ -1,19 +1,20 @@
 <?xml version="1.0"?>
 <Request>
   <RequestIdentifier>R</RequestIdentifier>
-  <UIPrepaidCardNumber>["2234567812345678"]</UIPrepaidCardNumber>
+  <UIPrepaidCardNumber>2234567812345678</UIPrepaidCardNumber>
   <UIDateOfBirth>19650103</UIDateOfBirth>
   <PrepaidCardNumber>2234567812345678</PrepaidCardNumber>
   <CustomerID>11111111135</CustomerID>
   <PrepaidCardStatus>Active</PrepaidCardStatus>
-  <DirectDepositEnrolled>TRUE</DirectDepositEnrolled>
-  <PrepaidProgramPayFrequency>61</PrepaidProgramPayFrequency>
+  <DirectDepositEnrolled>Y</DirectDepositEnrolled>
+  <PrepaidProgramPayFrequencyCode1>61</PrepaidProgramPayFrequencyCode1>
+  <PrepaidProgramPayFrequencyCode2>75</PrepaidProgramPayFrequencyCode2>
   <LastDirectDepositDate></LastDirectDepositDate>
   <PrevDirectDepositDate></PrevDirectDepositDate>
   <LastDirectDepositAmt></LastDirectDepositAmt>
   <PrevDirectDepositAmt></PrevDirectDepositAmt>
-  <OverDraftProductExists>FALSE</OverDraftProductExists>
-  <CreditProductExists>FALSE</CreditProductExists>
+  <OverDraftProductExists>N</OverDraftProductExists>
+  <CreditProductExists>N</CreditProductExists>
   <FirstName>Jane</FirstName>
   <LastName>Doe</LastName>
   <HomePhone>6052234567</HomePhone>
@@ -21,8 +22,8 @@
   <OtherPhone></OtherPhone>
   <Email>janedoe@sio.midco.net</Email>
   <EmailConfirmation></EmailConfirmation>
-  <SMSEnrolled>TRUE</SMSEnrolled>
-  <MarketingOptIn>TRUE</MarketingOptIn>
+  <SMSEnrolled>Y</SMSEnrolled>
+  <MarketingOptIn>Y</MarketingOptIn>
   <Address1>223 First St</Address1>
   <City>Sioux Falls</City>
   <State>SD</State>
@@ -39,8 +40,8 @@
   <ApplicationID>2</ApplicationID>
   <UserName></UserName>
   <Password></Password>
-  <Esignature>TRUE</Esignature>
-  <EmailEnrolled>TRUE</EmailEnrolled>
+  <Esignature>Y</Esignature>
+  <EmailEnrolled>Y</EmailEnrolled>
   <Security_Questions></Security_Questions>
   <ApplicationStatus>Submitted</ApplicationStatus>
   <DistributionMethod>PrepaidCard</DistributionMethod>
@@ -52,7 +53,7 @@
     <AccountStatus></AccountStatus>
     <ExistingODPCustomer></ExistingODPCustomer>
     <ExistingCreditCustomer></ExistingCreditCustomer>
-    <NoPreviousChargeOff>TRUE</NoPreviousChargeOff>
+    <NoPreviousChargeOff>Y</NoPreviousChargeOff>
     <DirectDepositSource>Text</DirectDepositSource>
     <Stated_Paydate_Frequency></Stated_Paydate_Frequency>
     <Calc_d_Paydate_Frequency></Calc_d_Paydate_Frequency>
