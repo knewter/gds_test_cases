@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Request>
   <RequestIdentifier><%= params["RequestIdentifier"] %></RequestIdentifier>
-  <UIPrepaidCardNumber><%= params["UIPrepaidCardNumber"] %></UIPrepaidCardNumber>
+  <UIPrepaidCardNumber><%= params["UIPrepaidCardNumber"].split('/')%></UIPrepaidCardNumber>
   <UIDateOfBirth><%= params["UIDateOfBirth"] %></UIDateOfBirth>
   <PrepaidCardNumber><%= params["PrepaidCardNumber"] %></PrepaidCardNumber>
   <CustomerID><%= params["CustomerID"] %></CustomerID>

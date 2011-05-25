@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Request>
   <RequestIdentifier>B</RequestIdentifier>
-  <UIPrepaidCardNumber>2234567812345678</UIPrepaidCardNumber>
+  <UIPrepaidCardNumber>["2234567812345678"]</UIPrepaidCardNumber>
   <UIDateOfBirth></UIDateOfBirth>
   <PrepaidCardNumber>2234567812345678</PrepaidCardNumber>
   <CustomerID>11111111112</CustomerID>

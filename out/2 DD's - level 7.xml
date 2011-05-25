@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Request>
   <RequestIdentifier>R</RequestIdentifier>
-  <UIPrepaidCardNumber>2234567812345678</UIPrepaidCardNumber>
-  <UIDateOfBirth>1/3/1965</UIDateOfBirth>
+  <UIPrepaidCardNumber>["2234567812345678"]</UIPrepaidCardNumber>
+  <UIDateOfBirth>19650103</UIDateOfBirth>
   <PrepaidCardNumber>2234567812345678</PrepaidCardNumber>
   <CustomerID>11111111139</CustomerID>
   <PrepaidCardStatus>Active</PrepaidCardStatus>
@@ -47,7 +47,7 @@
   <PCD> 
     <CustomerID>11111111139</CustomerID>
     <SSN>223456789</SSN>
-    <Date_of_Birth>1/3/1965</Date_of_Birth>
+    <Date_of_Birth>19650103</Date_of_Birth>
     <Cardnumber></Cardnumber>
     <AccountStatus></AccountStatus>
     <ExistingODPCustomer></ExistingODPCustomer>

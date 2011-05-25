@@ -25,6 +25,16 @@ class CsvImporter
   def build_template_for_row(row)
     return unless template
     @params = row_to_hash(row)
+    if @params["UIDateOfBirth"]
+      split_birthday = @params["UIDateOfBirth"].split('/')
+      if split_birthday[0].length == 1
+        split_birthday[0] = '0' + split_birthday[0]
+      end
+      if split_birthday[1].length == 1
+        split_birthday[1] = '0' + split_birthday[1]
+      end
+      @params["UIDateOfBirth"] = split_birthday[2] + split_birthday[0] + split_birthday[1]
+    end
     erb = ERB.new(template)
     erb.result(binding)
   end
