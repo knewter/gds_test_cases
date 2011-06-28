@@ -1,5 +1,12 @@
 Scenario: 25 DD's
-  Given an applicant is loaded from file "25 DD's.xml"
+  Given an applicant loaded from file "25 DD's.xml"
   When the applicant is sent to processes_application
-  Then the result should have key "Status" set to "Submitted"
+  Then the result should have key "Status" set to "Approved"
+    And the result should have key "AdverseReasons" that is nil
 
+
+    And the result should have key "RiskTier" set to "5"
+    And the result should have key "DDLevel" set to "500"
+    And the result should have key "NbrRepayments" set to "4"
+    And the result should have key "CreditLine" set to "700.00"
+    And the result should not have any ErrorCodes

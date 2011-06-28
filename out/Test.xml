@@ -1,82 +1,70 @@
 <?xml version="1.0"?>
 <Request>
-  <RequestIdentifier>R</RequestIdentifier>
-  <UIPrepaidCardNumber>5234567812345678</UIPrepaidCardNumber>
-  <UIDateOfBirth>19840408</UIDateOfBirth>
-  <PrepaidCardNumber>5234567812345678</PrepaidCardNumber>
-  <CustomerID>11111111150</CustomerID>
-  <PrepaidCardStatus>Active</PrepaidCardStatus>
-  <DirectDepositEnrolled>Y</DirectDepositEnrolled>
-  <PrepaidProgramPayFrequencyCode1>61</PrepaidProgramPayFrequencyCode1>
-  <PrepaidProgramPayFrequencyCode2>75</PrepaidProgramPayFrequencyCode2>
+  <RequestIdentifier></RequestIdentifier>
+  <UIPrepaidCardNumber></UIPrepaidCardNumber>
+  <UIDateOfBirth></UIDateOfBirth>
+  <PrepaidCardNumber></PrepaidCardNumber>
+  <CustomerID></CustomerID>
+  <PrepaidCardStatus></PrepaidCardStatus>
+  <DirectDepositEnrolled></DirectDepositEnrolled>
+  <PrepaidProgramPayFrequencyCode1></PrepaidProgramPayFrequencyCode1>
+  <PrepaidProgramPayFrequencyCode2></PrepaidProgramPayFrequencyCode2>
   <LastDirectDepositDate></LastDirectDepositDate>
   <PrevDirectDepositDate></PrevDirectDepositDate>
   <LastDirectDepositAmt></LastDirectDepositAmt>
   <PrevDirectDepositAmt></PrevDirectDepositAmt>
-  <OverDraftProductExists>N</OverDraftProductExists>
-  <CreditProductExists>N</CreditProductExists>
-  <FirstName>Jay</FirstName>
-  <LastName>Walker</LastName>
-  <HomePhone>6054222221</HomePhone>
+  <OverDraftProductExists></OverDraftProductExists>
+  <CreditProductExists></CreditProductExists>
+  <FirstName></FirstName>
+  <LastName></LastName>
+  <HomePhone></HomePhone>
   <MobilePhone></MobilePhone>
   <OtherPhone></OtherPhone>
-  <Email>JayWalker@sio.midco.net</Email>
-  <EmailConfirmation>JayWalker@sio.midco.net</EmailConfirmation>
+  <Email></Email>
+  <EmailConfirmation></EmailConfirmation>
   <SMSEnrolled></SMSEnrolled>
   <MarketingOptIn></MarketingOptIn>
-  <Address1>500 Fifth St</Address1>
-  <Address2></Address2>
-  <City>Sioux Falls</City>
-  <State>SD</State>
-  <Zip>57102</Zip>
-  <SSN>523456789</SSN>
+  <Address1></Address1>
+  <City></City>
+  <State></State>
+  <Zip></Zip>
+  <SSN></SSN>
   <UIPayFrequency></UIPayFrequency>
-  <UITakeHomePay>1500</UITakeHomePay>
-  <MonthlyIncome>3000</MonthlyIncome>
-  <MonthlyHousingPayment>1000</MonthlyHousingPayment>
+  <UITakeHomePay></UITakeHomePay>
+  <MonthlyIncome></MonthlyIncome>
+  <MonthlyHousingPayment></MonthlyHousingPayment>
   <PromoCode></PromoCode>
-  <SourceQueryString>http://www.blackhawknetwork.com</SourceQueryString>
-  <IPAddress>123.123.123</IPAddress>
+  <SourceQueryString></SourceQueryString>
+  <IPAddress></IPAddress>
   <AddressDifference></AddressDifference>
-  <ApplicationID>5</ApplicationID>
+  <ApplicationID></ApplicationID>
   <UserName></UserName>
   <Password></Password>
-  <Esignature>Y</Esignature>
-  <EmailEnrolled>Y</EmailEnrolled>
+  <Esignature></Esignature>
+  <EmailEnrolled></EmailEnrolled>
   <Security_Questions></Security_Questions>
-  <ApplicationStatus>Submitted</ApplicationStatus>
-  <DistributionMethod>PrepaidCard</DistributionMethod>
-  <EmploymentStatus>abc</EmploymentStatus>
-  <EmployerName>abc</EmployerName>
-  <EmployerPhone>abc</EmployerPhone>
-  <RentOrOwn>abc</RentOrOwn>
-  <DistributionMethod>abc</DistributionMethod>
-  <ProgramParameter>abc</ProgramParameter>
-  <IDologyIdNumber>abc</IDologyIdNumber>
+  <ApplicationStatus></ApplicationStatus>
+  <DistributionMethod></DistributionMethod>
   <PCD>
-    <CustomerID>11111111150</CustomerID>
-    <SSN>523456789</SSN>
-    <Date_of_Birth>19840408</Date_of_Birth>
-    <Cardnumber>5234567812345678</Cardnumber>
-    <AccountStatus>Active</AccountStatus>
-    <ExistingODPCustomer>N</ExistingODPCustomer>
-    <ExistingCreditCustomer>N</ExistingCreditCustomer>
-    <NoPreviousChargeOff>Y</NoPreviousChargeOff>
+    <CustomerID></CustomerID>
+    <SSN></SSN>
+    <Date_of_Birth></Date_of_Birth>
+    <Cardnumber></Cardnumber>
+    <AccountStatus></AccountStatus>
+    <ExistingODPCustomer></ExistingODPCustomer>
+    <ExistingCreditCustomer></ExistingCreditCustomer>
+    <NoPreviousChargeOff></NoPreviousChargeOff>
     <DirectDepositSource></DirectDepositSource>
-    <Stated_Paydate_Frequency_Code1></Stated_Paydate_Frequency_Code1>
-    <Calc_d_Paydate_Frequency_Code1></Calc_d_Paydate_Frequency_Code1>
-    <Stated_Paydate_Frequency_Code2>abc</Stated_Paydate_Frequency_Code2>
-    <Calc_d_Paydate_Frequency_Code2>abc</Calc_d_Paydate_Frequency_Code2>
-    <Current_Block_Code1>abc</Current_Block_Code1>
-    <Current_Block_Code2>abc</Current_Block_Code2>
+    <Stated_Paydate_Frequency></Stated_Paydate_Frequency>
+    <Calc_d_Paydate_Frequency></Calc_d_Paydate_Frequency>
     <Last_DD_Transaction_Date></Last_DD_Transaction_Date>
-    <Avg_DD_Amt_1>749</Avg_DD_Amt_1>
+    <Avg_DD_Amt_1></Avg_DD_Amt_1>
     <DD_Count_1></DD_Count_1>
     <DD_Delinq_1></DD_Delinq_1>
     <Advances_1></Advances_1>
     <Avg_Advance_1></Avg_Advance_1>
     <Avg_LOC_1></Avg_LOC_1>
-    <Avg_DD_Amt_1-6>749</Avg_DD_Amt_1-6>
+    <Avg_DD_Amt_1-6></Avg_DD_Amt_1-6>
     <DD_Count_1-6></DD_Count_1-6>
     <DD_Delinq_1-6></DD_Delinq_1-6>
     <Advances_1-6></Advances_1-6>
@@ -142,23 +130,25 @@
     <Avg_Transaction_Total></Avg_Transaction_Total>
     <Nbr_Loads_Total></Nbr_Loads_Total>
     <Avg_Load_Total></Avg_Load_Total>
-    <NumConsecutiveGoodPayments>7</NumConsecutiveGoodPayments>
-    <AbilityToPayCreditLine>800</AbilityToPayCreditLine>
+    <Nbr_of_ConsecutiveGoodPayments></Nbr_of_ConsecutiveGoodPayments>
+    <AbilityToPayCreditLine></AbilityToPayCreditLine>
     <LastProductChangeDate></LastProductChangeDate>
     <Date_of_Initial_LOC_Extension></Date_of_Initial_LOC_Extension>
     <Days_from_the_Initial_LOC_Date></Days_from_the_Initial_LOC_Date>
-    <DateOpened></DateOpened>
-    <Days_from_DateOpened></Days_from_DateOpened>
     <Initial_Tier></Initial_Tier>
     <Initial_Limit></Initial_Limit>
-    <Initial_DD_Level></Initial_DD_Level>
+    <Initial_Rate></Initial_Rate>
     <Initial_Nbr_of_Installments></Initial_Nbr_of_Installments>
+    <Last_Tier></Last_Tier>
+    <Last_Limit></Last_Limit>
+    <Last_Rate></Last_Rate>
+    <Last_Nbr_of_Installments></Last_Nbr_of_Installments>
+    <Date_of_Most_Recent_LOC_Change></Date_of_Most_Recent_LOC_Change>
+    <Change></Change>
     <Current_Tier></Current_Tier>
     <Current_Limit></Current_Limit>
     <Current_DD_Level></Current_DD_Level>
     <Current_Rate></Current_Rate>
     <Current_Nbr_Installments></Current_Nbr_Installments>
-    <Date_of_Most_Recent_LOC_Change></Date_of_Most_Recent_LOC_Change>
-    <Change>Approved</Change>
   </PCD>
 </Request>

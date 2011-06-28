@@ -21,10 +21,11 @@
   <MobilePhone><%= params["MobilePhone"] %></MobilePhone>
   <OtherPhone><%= params["OtherPhone"] %></OtherPhone>
   <Email><%= params["Email"] %></Email>
-  <EmailConfirmation><%= params["EmailConfirmation"] %></EmailConfirmation>
+  <EmailConfirmation><%= params["Email"] %></EmailConfirmation>
   <SMSEnrolled><%= params["SMSEnrolled"] %></SMSEnrolled>
   <MarketingOptIn><%= params["MarketingOptIn"] %></MarketingOptIn>
   <Address1><%= params["Address1"] %></Address1>
+  <Address2></Address2>
   <City><%= params["City"] %></City>
   <State><%= params["State"] %></State>
   <Zip><%= params["Zip"] %></Zip>
@@ -45,18 +46,29 @@
   <Security_Questions><%= params["Security Questions"] %></Security_Questions>
   <ApplicationStatus><%= params["ApplicationStatus"] %></ApplicationStatus>
   <DistributionMethod><%= params["DistributionMethod"] %></DistributionMethod>
-  <PCD> 
+  <EmploymentStatus>abc</EmploymentStatus>
+  <EmployerName>abc</EmployerName>
+  <EmployerPhone>abc</EmployerPhone>
+  <RentOrOwn>abc</RentOrOwn>
+  <DistributionMethod>abc</DistributionMethod>
+  <ProgramParameter>abc</ProgramParameter>
+  <IDologyIdNumber>abc</IDologyIdNumber>
+  <PCD>
     <CustomerID><%= params["CustomerID"] %></CustomerID>
     <SSN><%= params["SSN"] %></SSN>
     <Date_of_Birth><%= params["UIDateOfBirth"] %></Date_of_Birth>
-    <Cardnumber><%= params["Cardnumber"] %></Cardnumber>
-    <AccountStatus><%= params["AccountStatus"] %></AccountStatus>
-    <ExistingODPCustomer><%= params["ExistingODPCustomer"] %></ExistingODPCustomer>
-    <ExistingCreditCustomer><%= params["ExistingCreditCustomer"] %></ExistingCreditCustomer>
+    <Cardnumber><%= params["PrepaidCardNumber"] %></Cardnumber>
+    <AccountStatus><%= params["PrepaidCardStatus"] %></AccountStatus>
+    <ExistingODPCustomer><%= params["OverDraftProductExists"] %></ExistingODPCustomer>
+    <ExistingCreditCustomer><%= params["CreditProductExists"] %></ExistingCreditCustomer>
     <NoPreviousChargeOff><%= params["NoPreviousChargeOff"] %></NoPreviousChargeOff>
     <DirectDepositSource><%= params["DirectDepositSource"] %></DirectDepositSource>
-    <Stated_Paydate_Frequency><%= params["Stated Paydate Frequency"] %></Stated_Paydate_Frequency>
-    <Calc_d_Paydate_Frequency><%= params["Calc d Paydate Frequency"] %></Calc_d_Paydate_Frequency>
+    <Stated_Paydate_Frequency_Code1><%= params["Stated Paydate Frequency"] %></Stated_Paydate_Frequency_Code1>
+    <Calc_d_Paydate_Frequency_Code1><%= params["Calc d Paydate Frequency"] %></Calc_d_Paydate_Frequency_Code1>
+    <Stated_Paydate_Frequency_Code2>abc</Stated_Paydate_Frequency_Code2>
+    <Calc_d_Paydate_Frequency_Code2>abc</Calc_d_Paydate_Frequency_Code2>
+    <Current_Block_Code1>abc</Current_Block_Code1>
+    <Current_Block_Code2>abc</Current_Block_Code2>
     <Last_DD_Transaction_Date><%= params["Last DD Transaction Date"] %></Last_DD_Transaction_Date>
     <Avg_DD_Amt_1><%= params["Avg DD Amt 1-6"] %></Avg_DD_Amt_1>
     <DD_Count_1><%= params["DD Count 1"] %></DD_Count_1>
@@ -130,25 +142,23 @@
     <Avg_Transaction_Total><%= params["Avg Transaction Total"] %></Avg_Transaction_Total>
     <Nbr_Loads_Total><%= params["# Loads Total"] %></Nbr_Loads_Total>
     <Avg_Load_Total><%= params["Avg Load Total"] %></Avg_Load_Total>
-    <Nbr_of_ConsecutiveGoodPayments><%= params["NumConsecutiveGoodPayments"] %></Nbr_of_ConsecutiveGoodPayments>
+    <NumConsecutiveGoodPayments><%= params["NumConsecutiveGoodPayments"] %></NumConsecutiveGoodPayments>
     <AbilityToPayCreditLine><%= params["AbilityToPayCreditLine"] %></AbilityToPayCreditLine>
     <LastProductChangeDate><%= params["LastProductChangeDate"] %></LastProductChangeDate>
     <Date_of_Initial_LOC_Extension><%= params["Date of Initial LOC Extension"] %></Date_of_Initial_LOC_Extension>
     <Days_from_the_Initial_LOC_Date><%= params["Days from the Initial LOC Date"] %></Days_from_the_Initial_LOC_Date>
+    <DateOpened><%= params["Date of Initial LOC Extension"] %></DateOpened>
+    <Days_from_DateOpened><%= params["Days from the Initial LOC Date"] %></Days_from_DateOpened>
     <Initial_Tier><%= params["Initial Tier"] %></Initial_Tier>
     <Initial_Limit><%= params["Initial Limit"] %></Initial_Limit>
-    <Initial_Rate><%= params["Initial Rate"] %></Initial_Rate>
+    <Initial_DD_Level><%= params["Initial Rate"] %></Initial_DD_Level>
     <Initial_Nbr_of_Installments><%= params["Initial Nbr of Installments"] %></Initial_Nbr_of_Installments>
-    <Last_Tier><%= params["Last Tier"] %></Last_Tier>
-    <Last_Limit><%= params["Last Limit"] %></Last_Limit>
-    <Last_Rate><%= params["Last Rate"] %></Last_Rate>
-    <Last_Nbr_of_Installments><%= params["Last Nbr of Installments"] %></Last_Nbr_of_Installments>
-    <Date_of_Most_Recent_LOC_Change><%= params["Date of Most Recent LOC Change"] %></Date_of_Most_Recent_LOC_Change>
-    <Change><%= params["Change"] %></Change>
     <Current_Tier><%= params["Current Tier"] %></Current_Tier>
     <Current_Limit><%= params["Current Limit"] %></Current_Limit>
     <Current_DD_Level><%= params["Current DD Level"] %></Current_DD_Level>
     <Current_Rate><%= params["Current Rate"] %></Current_Rate>
     <Current_Nbr_Installments><%= params["Current Nbr Installments"] %></Current_Nbr_Installments>
+    <Date_of_Most_Recent_LOC_Change><%= params["Date of Most Recent LOC Change"] %></Date_of_Most_Recent_LOC_Change>
+    <Change><%= params["Change"] %></Change>
   </PCD>
 </Request>
