@@ -1,3 +1,4 @@
+
 Scenario: 1 DD - level 5
   Given an applicant loaded from file "1 DD - level 5.xml"
   When the applicant is sent to processes_application

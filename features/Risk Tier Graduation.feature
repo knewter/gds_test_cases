@@ -1,7 +1,8 @@
+
 Scenario: Risk Tier Graduation
   Given an applicant loaded from file "Risk Tier Graduation.xml"
   When the applicant is sent to processes_application
-  Then the result should have key "Status" set to "Improved"
+  Then the result should have key "Change" set to "Improved"
     And the result should have key "AdverseReasons" that is nil
 
 

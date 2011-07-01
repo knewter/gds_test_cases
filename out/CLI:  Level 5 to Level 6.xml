@@ -67,8 +67,16 @@
     <Calc_d_Paydate_Frequency_Code1></Calc_d_Paydate_Frequency_Code1>
     <Stated_Paydate_Frequency_Code2>abc</Stated_Paydate_Frequency_Code2>
     <Calc_d_Paydate_Frequency_Code2>abc</Calc_d_Paydate_Frequency_Code2>
-    <Current_Block_Code1>abc</Current_Block_Code1>
-    <Current_Block_Code2>abc</Current_Block_Code2>
+    <Initial_Tier></Initial_Tier>
+    <Initial_Limit></Initial_Limit>
+    <Initial_DDLevel></Initial_DDLevel>
+    <Initial_Nbr_of_Installments></Initial_Nbr_of_Installments>
+    <Current_Block_Code1></Current_Block_Code1>
+    <Current_Block_Code2></Current_Block_Code2>
+    <Current_Tier>2</Current_Tier>
+    <Current_Limit>300</Current_Limit>
+    <Current_DDLevel>750</Current_DDLevel>
+    <Current_Nbr_of_Repayments>1</Current_Nbr_of_Repayments>
     <Last_DD_Transaction_Date></Last_DD_Transaction_Date>
     <Avg_DD_Amt_1>1249.99</Avg_DD_Amt_1>
     <DD_Count_1></DD_Count_1>
@@ -76,30 +84,30 @@
     <Advances_1></Advances_1>
     <Avg_Advance_1></Avg_Advance_1>
     <Avg_LOC_1></Avg_LOC_1>
-    <Avg_DD_Amt_1-6>1249.99</Avg_DD_Amt_1-6>
-    <DD_Count_1-6></DD_Count_1-6>
-    <DD_Delinq_1-6></DD_Delinq_1-6>
-    <Advances_1-6></Advances_1-6>
-    <Avg_Advance_1-6></Avg_Advance_1-6>
-    <Avg_LOC_1-6></Avg_LOC_1-6>
-    <Avg_DD_Amt_1-12></Avg_DD_Amt_1-12>
-    <DD_Count_1-12></DD_Count_1-12>
-    <DD_Delinq_1-12></DD_Delinq_1-12>
-    <Advances_1-12></Advances_1-12>
-    <Avg_Advance_1-12></Avg_Advance_1-12>
-    <Avg_LOC_1-12></Avg_LOC_1-12>
-    <Avg_DD_Amt_1-24></Avg_DD_Amt_1-24>
-    <DD_Count_1-24></DD_Count_1-24>
-    <DD_Delinq_1-24></DD_Delinq_1-24>
-    <Advances_1-24></Advances_1-24>
-    <Avg_Advance_1-24></Avg_Advance_1-24>
-    <Avg_LOC_1-24></Avg_LOC_1-24>
-    <Avg_DD_Amt_1-36></Avg_DD_Amt_1-36>
-    <DD_Count_1-36></DD_Count_1-36>
-    <DD_Delinq_1-36></DD_Delinq_1-36>
-    <Advances_1-36></Advances_1-36>
-    <Avg_Advance_1-36></Avg_Advance_1-36>
-    <Avg_LOC_1-36></Avg_LOC_1-36>
+    <Avg_DD_Amt_1_6>1249.99</Avg_DD_Amt_1_6>
+    <DD_Count_1_6></DD_Count_1_6>
+    <DD_Delinq_1_6></DD_Delinq_1_6>
+    <Advances_1_6></Advances_1_6>
+    <Avg_Advance_1_6></Avg_Advance_1_6>
+    <Avg_LOC_1_6></Avg_LOC_1_6>
+    <Avg_DD_Amt_1_12></Avg_DD_Amt_1_12>
+    <DD_Count_1_12></DD_Count_1_12>
+    <DD_Delinq_1_12></DD_Delinq_1_12>
+    <Advances_1_12></Advances_1_12>
+    <Avg_Advance_1_12></Avg_Advance_1_12>
+    <Avg_LOC_1_12></Avg_LOC_1_12>
+    <Avg_DD_Amt_1_24></Avg_DD_Amt_1_24>
+    <DD_Count_1_24></DD_Count_1_24>
+    <DD_Delinq_1_24></DD_Delinq_1_24>
+    <Advances_1_24></Advances_1_24>
+    <Avg_Advance_1_24></Avg_Advance_1_24>
+    <Avg_LOC_1_24></Avg_LOC_1_24>
+    <Avg_DD_Amt_1_36></Avg_DD_Amt_1_36>
+    <DD_Count_1_36></DD_Count_1_36>
+    <DD_Delinq_1_36></DD_Delinq_1_36>
+    <Advances_1_36></Advances_1_36>
+    <Avg_Advance_1_36></Avg_Advance_1_36>
+    <Avg_LOC_1_36></Avg_LOC_1_36>
     <Avg_DD_Amt_Total></Avg_DD_Amt_Total>
     <DD_Count_Total></DD_Count_Total>
     <DD_Delinq_Total></DD_Delinq_Total>
@@ -144,20 +152,9 @@
     <Avg_Load_Total></Avg_Load_Total>
     <NumConsecutiveGoodPayments>3</NumConsecutiveGoodPayments>
     <AbilityToPayCreditLine>1760</AbilityToPayCreditLine>
-    <LastProductChangeDate></LastProductChangeDate>
-    <Date_of_Initial_LOC_Extension></Date_of_Initial_LOC_Extension>
-    <Days_from_the_Initial_LOC_Date></Days_from_the_Initial_LOC_Date>
+    <CurrentDate></CurrentDate>
     <DateOpened></DateOpened>
     <Days_from_DateOpened></Days_from_DateOpened>
-    <Initial_Tier></Initial_Tier>
-    <Initial_Limit></Initial_Limit>
-    <Initial_DD_Level></Initial_DD_Level>
-    <Initial_Nbr_of_Installments></Initial_Nbr_of_Installments>
-    <Current_Tier>2</Current_Tier>
-    <Current_Limit>300</Current_Limit>
-    <Current_DD_Level></Current_DD_Level>
-    <Current_Rate></Current_Rate>
-    <Current_Nbr_Installments></Current_Nbr_Installments>
     <Date_of_Most_Recent_LOC_Change></Date_of_Most_Recent_LOC_Change>
     <Change>Increased</Change>
   </PCD>

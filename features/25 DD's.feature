@@ -1,3 +1,4 @@
+
 Scenario: 25 DD's
   Given an applicant loaded from file "25 DD's.xml"
   When the applicant is sent to processes_application

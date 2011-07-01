@@ -1,3 +1,4 @@
+
 Scenario: 6 DD's (Previous Charge Off)
   Given an applicant loaded from file "6 DD's (Previous Charge Off).xml"
   When the applicant is sent to processes_application

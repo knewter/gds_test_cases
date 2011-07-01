@@ -1,7 +1,8 @@
+
 Scenario: Pending 1 DD - level 4
   Given an applicant loaded from file "Pending 1 DD - level 4.xml"
   When the applicant is sent to processes_application
-  Then the result should have key "Status" set to "Approved"
+  Then the result should have key "Change" set to "Approved"
     And the result should have key "AdverseReasons" that is nil
 
 

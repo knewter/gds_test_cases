@@ -1,3 +1,4 @@
+
 Scenario: 6 DD's (ODP Product)
   Given an applicant loaded from file "6 DD's (ODP Product).xml"
   When the applicant is sent to processes_application

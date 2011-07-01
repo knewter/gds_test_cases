@@ -1,7 +1,8 @@
+
 Scenario: CLI:  Level 2 to Level 3
   Given an applicant loaded from file "CLI:  Level 2 to Level 3.xml"
   When the applicant is sent to processes_application
-  Then the result should have key "Status" set to "Increased"
+  Then the result should have key "Change" set to "Increased"
     And the result should have key "AdverseReasons" that is nil
 
 

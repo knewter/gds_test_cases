@@ -1,3 +1,4 @@
+
 Scenario: 7 DD's (ATP Credit Line Used)
   Given an applicant loaded from file "7 DD's (ATP Credit Line Used).xml"
   When the applicant is sent to processes_application

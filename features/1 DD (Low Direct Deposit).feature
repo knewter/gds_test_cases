@@ -1,3 +1,4 @@
+
 Scenario: 1 DD (Low Direct Deposit)
   Given an applicant loaded from file "1 DD (Low Direct Deposit).xml"
   When the applicant is sent to processes_application
