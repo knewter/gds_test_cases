@@ -6,8 +6,8 @@ Scenario: Unsuspended - Other Block Code
     And the result should have key "AdverseReasons" that is nil
 
 
-    And the result should have key "RiskTier" set to "4"
+    And the result should have key "RiskTier" set to "5"
     And the result should have key "DDLevel" set to "250"
-    And the result should have key "NbrRepayments" set to "3"
-    And the result should have key "CreditLine" set to "250.00"
+    And the result should have key "NbrRepayments" set to "4"
+    And the result should have key "CreditLine" set to "350.00"
     And the result should not have any ErrorCodes

@@ -151,7 +151,7 @@
     <Nbr_Loads_Total></Nbr_Loads_Total>
     <Avg_Load_Total></Avg_Load_Total>
     <NumConsecutiveGoodPayments>37</NumConsecutiveGoodPayments>
-    <AbilityToPayCreditLine>1200</AbilityToPayCreditLine>
+    <AbilityToPayCreditLine>2000</AbilityToPayCreditLine>
     <CurrentDate></CurrentDate>
     <DateOpened></DateOpened>
     <Days_from_DateOpened></Days_from_DateOpened>

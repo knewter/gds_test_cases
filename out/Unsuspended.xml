@@ -73,10 +73,10 @@
     <Initial_Nbr_of_Installments></Initial_Nbr_of_Installments>
     <Current_Block_Code1></Current_Block_Code1>
     <Current_Block_Code2>L</Current_Block_Code2>
-    <Current_Tier>4</Current_Tier>
+    <Current_Tier>5</Current_Tier>
     <Current_Limit>250</Current_Limit>
     <Current_DDLevel>250</Current_DDLevel>
-    <Current_Nbr_of_Repayments>3</Current_Nbr_of_Repayments>
+    <Current_Nbr_of_Repayments>4</Current_Nbr_of_Repayments>
     <Last_DD_Transaction_Date></Last_DD_Transaction_Date>
     <Avg_DD_Amt_1>250</Avg_DD_Amt_1>
     <DD_Count_1></DD_Count_1>
@@ -151,7 +151,7 @@
     <Nbr_Loads_Total></Nbr_Loads_Total>
     <Avg_Load_Total></Avg_Load_Total>
     <NumConsecutiveGoodPayments>29</NumConsecutiveGoodPayments>
-    <AbilityToPayCreditLine>260</AbilityToPayCreditLine>
+    <AbilityToPayCreditLine>2500</AbilityToPayCreditLine>
     <CurrentDate></CurrentDate>
     <DateOpened></DateOpened>
     <Days_from_DateOpened></Days_from_DateOpened>

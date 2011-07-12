@@ -8,7 +8,7 @@ Scenario: Risk Tier Grad + CL Decrease
 
 
     And the result should have key "RiskTier" set to "4"
-    And the result should have key "DDLevel" set to "500"
-    And the result should have key "NbrRepayments" set to "2"
-    And the result should have key "CreditLine" set to "300.00"
+    And the result should have key "DDLevel" set to "250"
+    And the result should have key "NbrRepayments" set to "3"
+    And the result should have key "CreditLine" set to "250.00"
     And the result should not have any ErrorCodes
